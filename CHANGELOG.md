@@ -5,6 +5,29 @@ All notable changes to daimon are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.62.0](https://github.com/Daily-Nerd/daimon/compare/v0.61.0...v0.62.0) (2026-10-27)
+
+
+### Features
+
+* **ledger:** an import marker opens an attempt that heal never retries ([9cefcb2](https://github.com/Daily-Nerd/daimon/commit/9cefcb227c71a2c36c45f52001115e9f9879809c)), closes [#1236](https://github.com/Daily-Nerd/daimon/issues/1236)
+* **serialize:** the import door stamps capture_door and marks its success line ([381f577](https://github.com/Daily-Nerd/daimon/commit/381f577f012556ae02fdcac6da1a289164a8a304)), closes [#1236](https://github.com/Daily-Nerd/daimon/issues/1236)
+
+
+### Bug Fixes
+
+* **carry:** a capture behind the stream's latest folds nothing backward ([aabb447](https://github.com/Daily-Nerd/daimon/commit/aabb4477858ab6fdc3401be8a0183e8b9f483f92)), closes [#1236](https://github.com/Daily-Nerd/daimon/issues/1236)
+* **ledger:** every spawn line owns its attempt's reason, and a held import names its own cure ([9c94ab2](https://github.com/Daily-Nerd/daimon/commit/9c94ab2d7d1370f827b2963b23c7f88701ad4f78)), closes [#1236](https://github.com/Daily-Nerd/daimon/issues/1236)
+* **store:** an older checkpoint never inherits a birth stamp newer than its own session ([603ad91](https://github.com/Daily-Nerd/daimon/commit/603ad919f9889d38022352a660460098806f8480)), closes [#1236](https://github.com/Daily-Nerd/daimon/issues/1236)
+
+
+### Documentation
+
+* **changelog:** list each 0.61.0 change once ([6357cb6](https://github.com/Daily-Nerd/daimon/commit/6357cb6ddd4ede1c1fdd95e848170d91c4f6e68c)), closes [#1176](https://github.com/Daily-Nerd/daimon/issues/1176)
+* **claims:** count the quote downgrade rate over fresh items only, 11.3% ([385a3b0](https://github.com/Daily-Nerd/daimon/commit/385a3b07ee3515b2d4b4bf5f1168f8c7d824075a))
+* **readme:** say what heal, the Windsurf adapter and team attribution do ([6f2c381](https://github.com/Daily-Nerd/daimon/commit/6f2c3818a990ff0b3a70ad00acfb63bee6fc2991))
+* **schema:** describe capture_door as stamped with no reader yet ([e3ada11](https://github.com/Daily-Nerd/daimon/commit/e3ada1141241d77eb40ff9ad8eda1df23dc4c8f9)), closes [#1236](https://github.com/Daily-Nerd/daimon/issues/1236)
+
 ## [0.61.0](https://github.com/Daily-Nerd/daimon/compare/v0.60.0...v0.61.0) (2026-10-26)
 
 
